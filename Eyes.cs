@@ -1,6 +1,8 @@
- using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+
+//A code for eyes that follow the player as they move around the level
 
 public class Eyes : MonoBehaviour
 {
