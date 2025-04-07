@@ -89,7 +89,6 @@ public class Player : MonoBehaviour
         // Plunge Attack Trigger
         if (Input.GetMouseButtonDown(0))
         {
-           // StartCoroutine(BaseAttack(Attack(transform.position, 10, 1.5f, 5f, fixthis)));
             if (canPlunge)
             {
                 StartPlunge();
